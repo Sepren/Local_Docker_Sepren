@@ -11,3 +11,5 @@ services:
       - php
 php:
     image: php7-fpm
+    volumes:
+      - ./code:/code
